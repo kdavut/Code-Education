@@ -1,0 +1,87 @@
+/* 
+BU BÖLÜM KUTULARI YANYANA ALDI
+body{
+    display: flex;
+} */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 1100px;
+    height: 600px;
+    padding: 20px;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.box  {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%)
+  }
+.flex{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+
+
+.bg-violet {
+    background-color: blueviolet;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+.bg-green {
+    background-color: green;
+}
+
+
+  
+
+
+
+/*  BU BÖLÜM KUTUYU ORTAYA ALIR
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%)
+  }
+*/
+
+/* BU BÖLÜM KUTULARI CONTAİNER İÇİNE SIĞDIRIR CONTAİNER FLEXİBLE OLUR
+.flex{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  } */
+
+/******
+
+
+/***** 
+bu bölüm sayfaya yayar ve iki kutuyu açıp ortalar
+    .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  } 
+  *****/
+
+/* BU BÖLÜM SAYFAYI TEMİZLER
+.clear {
+    clear: both;
+    margin: auto;
+} */
+

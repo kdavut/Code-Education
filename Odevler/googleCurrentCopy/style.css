@@ -1,0 +1,197 @@
+.container {
+    padding: 10px 15px 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #dfe1e5;
+  }
+  
+  .altbar {
+    float: left;
+    background-color: rgb(162, 233, 162) ;
+  }
+  
+  .altbar2 {
+    float: right;
+    padding-right: 10px;
+  }
+  .apps {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+  }
+  
+  .apps:hover {
+    opacity: 50%;
+    cursor: pointer;
+  }
+  
+  .btn {
+    height: 30px;
+    width: 75px;
+    background-color: #4485f5;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #4485f5d3;
+  }
+  
+  .btn2 {
+    margin-right: 10px;
+    width: 130px;
+    height: 36px;
+    border: none;
+    background-color: rgba(214, 214, 214, 0.5);
+    color: rgb(78, 80, 82);
+  }
+  
+  .btn2:hover {
+    color: black;
+    background-color: rgba(177, 177, 177, 0.329);
+    border: 1px rgba(0, 0, 0, 0.151) solid;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #f2f2f2;
+    color: rgb(126, 123, 123);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+  }
+  
+  .input {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -73px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    width: 480px;
+    border: none;
+  }
+  
+  .input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 480px;
+  }
+  
+  .input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+  }
+  
+  .logo {
+    display: block;
+    margin: auto 600px auto 600px;
+    padding-top: 150px;
+  }
+  
+  .none {
+    text-decoration: none;
+    margin-right: 15px;
+    color: rgba(0, 0, 0, 0.815);
+    font-weight: lighter;
+  }
+  
+  .none:hover {
+    text-decoration: underline;
+  }
+  
+  .search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    margin-top: 6px;
+  }
+  
+  .search-area {
+    background: url(img/voicelogo.png) no-repeat;
+    background-position: calc(100% - 1.5%);
+    background-size: 30px;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    padding-right: 30px;
+    margin-top: 20px;
+    width: 582px;
+    border-radius: 50px;
+  }
+  
+  .search-area:hover {
+    -webkit-box-shadow: 1px 1px 6px 1px #000000;
+    box-shadow: 1px 1px 6px 1px #000000;
+  }
+  
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+  }
+  
+  .submit {
+    margin-left: 605px;
+    margin-top: 10px;
+  }
+  
+  .ustbar {
+    float: left;
+  }
+  
+  .ustbar2 {
+    float: right;
+  }
+  
+  .ustbar a:hover,
+  .ustbar2 a:hover {
+    text-decoration: underline;
+  }
+body {
+    margin: auto;
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="text-light" style="background-color: darkgrey;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand ml-16" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex m-auto">
+          <input class="form-control me-2 center" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger btn-inline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+    
+    
+    <div class="container">
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="book1.jpeg" height="200" width="1600" alt="Los Angeles">
+      </div>
+      <div class="carousel-item center">
+        <img src="book2.jpeg" height="200" width="1600" alt="Chicago">
+      </div>
+      <div class="carousel-item center">
+        <img src="book3.jpeg" height="200" width="1600" alt="New York">
+      </div>
+    </div>
+  
+    <!-- Left and right controls --> 
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
+</div>
+
+
+  
+  <div class="container" style="background-image: url(/mesh-gradient.png);">
+    <div class="row">
+      <nav id="sidebarMenu" class="col-sm-3 display:flex-column">
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column list-group">
+            <li>
+              <img src="/logo.png" alt="Logo" width="100" height="100" class="center">
+            </li>
+            <li class="nav-item btn text-left d-flex rounded-pill btn-grad shadow-none">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    Anasayfa
+                  </a>
+                </li>
+                <li class="nav-item btn btn-outline-primary text-left d-flex rounded-pill btn-grad shadow-none" role="button">
+                  <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file" aria-hidden="true"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>
+                    Test Çöz
+                  </a>
+                </li>
+                <li class="nav-item btn btn-outline-primary text-left d-flex rounded-pill btn-grad shadow-none" role="button">
+                  <a class="nav-link " href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    Kimdir ?
+                  </a>
+                </li>
+                <li class="nav-item btn btn-outline-primary text-left d-flex rounded-pill btn-grad shadow-none" role="button">
+                  <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    9. Sınıf Konuları
+                  </a>
+                </li>
+                <li class="nav-item btn btn-outline-primary text-left d-flex rounded-pill btn-grad shadow-none" role="button">
+                  <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    10. Sınıf Konuları
+                  </a>
+                </li>
+                <li class="nav-item btn btn-outline-primary text-left d-flex rounded-pill btn-grad shadow-none" role="button">
+                  <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    11. Sınıf Konuları
+                  </a>
+                </li>
+                <li class="nav-item btn btn-outline-primary text-left d-flex rounded-pill btn-grad shadow-none" role="button">
+                  <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    12. Sınıf Konuları
+                  </a>
+                </li>
+                <li class="nav-item btn btn-outline-primary text-left d-flex rounded-pill btn-grad shadow-none" role="button" style="list-style-type: none;">
+                <a class="nav-link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M1.75 4.75h7.5v7.5h-7.5zm8 2.5l4.5-2.5v7.5l-4.5-2.5"/></svg>
+                  Videolar
+                </a>
+              </li>
+            </ul>
+              
+      
+            </div>
+          </nav>
+          <!-- Burada orta panel başlangıcı -->
+          <div class="col-sm-6"> 
+            <div class="row border border-info">
+              <div class="col-sm-4 m-0 p-1">
+                <img src="yasark.jpeg" alt=".." height="150" width="150">
+              </div>
+              <div class="col-sm-8 p-1">
+                <p>Yaşar Kemal ( Kemal Sadık Göğceli ) 1923 yılında Kadirli, Osmaniye‘de dünyaya gelmiştir. Edebiyata daha küçük yaşlarda merak saran yazar, bu alandaki ilk çalışmalarına ilkokulda başlamıştır.Yazar, ortaokuldan ayrıldıktan sonra halk edebiyatı derlemelerine başlamıştır.
+                </p>
+              </div>
+
+            </div>
+            <div class="row border border-info">
+              <div class="col-sm-8">
+                <p>14 Mart 1888’de İstanbul Beylerbeyi’nde doğdu. Babası maliye başveznedarı ve Bank-i Osmânî-yi Şâhâne nâzırı, Mevlevî tarikatına mensup Mudurnulu Mehmed Hâlid Bey, annesi Kırım Giray hanları sülâlesinden gelen Nefise Ruhsar Hanım’dır. </p>
+              </div>
+              <div class="col-sm-4 m-0 p-1">
+                <img src="refik.jpeg" alt=".." height="150" width="150">
+              </div>
+            </div>
+            <div class="row border border-info">
+              <div class="col-sm-4 m-0 p-1">
+                <img src="oguz.jpeg" alt=".." height="150" width="150">
+              </div>
+              <div class="col-sm-8">
+                <p>Oğuz Atay (12 Ekim 1934 Kastamonu -13 Aralık 1977 İstanbul), 1997 yılında UNESCO tarafından 20. yüzyıl Türk edebiyatının en seçkin eseri olarak kabul edilen "Tutunamayanlar" romanının yazarı, Türk edebiyatında postmodern metin denildiğinde akla gelen ilk isimlerden biri olan, roman, oyun, öykü yazarı, mühendis ve öğretim üyesidir.</p>
+              </div>
+
+            </div>
+            <div class="row border border-info">
+              <div class="col-sm-8">
+                <p>Fuzûlî'yi Türk edebiyatının en büyük simalarından biri yapan husus samimiyeti, coşkunluğu, sadeliği, duyarlılığı ve ifade kudretidir. Fuzûlî aşkı, ıstırabı, dünyevî zevk ve zenginliklerin boşluğunu ve hiç kimsenin pençesinden kurtulamayacağı ölüm düşüncesini olağan üstü bir lirizm ve sanat gücüyle ifade ...</p>
+              </div>
+              <div class="col-sm-4 m-0 p-1">
+                <img src="fuzuli.jpeg" alt=".." height="150" width="150">
+              </div>
+
+            </div>
+            
+          
+          </div>
+          <!-- burası sağ panel -->
+          <div class="col-sm-3">
+              <h4>GÜNCEL</h4> <br>
+              <H6> 11. Sınıf Notları </H6> <br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, aut.</p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, aut.</p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, aut.</p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, aut.</p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, aut.</p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, aut.</p><br>
+
+              
+
+          </div>
+   
+        
+      
+
+
+
+
+    
+    
+    
+          
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
